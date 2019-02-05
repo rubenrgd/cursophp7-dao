@@ -32,9 +32,19 @@ echo json_encode($usuarios);
 //$aluno->insert();
 //echo $aluno;
 
+/*
+Atualizando o cadastro de um usuário
 $usuario = new Usuario();
 $usuario->loadById(8);
 $usuario->update("professor", "101928");
 echo $usuario;
+*/
 
+
+//Deletando um usuário
+/*$usuario = new Usuario();
+$usuario->loadById(6);
+$usuario->delete();
+echo $usuario;
+*/
 ?>
